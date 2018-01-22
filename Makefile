@@ -1,4 +1,4 @@
-SUBDIR=	mbbsd util innbbsd
+SUBDIR=	mbbsd util #innbbsd
 
 all install clean:
 .if !exists(/usr/local/lib/libhz.so) && !exists(/usr/lib/libhz.so)

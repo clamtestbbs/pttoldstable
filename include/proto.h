@@ -589,7 +589,7 @@ char *Cdatelite(const time4_t *clock);
 int valid_ident(const char *ident);
 int userid_is_BM(const char *userid, const char *list);
 int is_uBM(const char *list, const char *id);
-inline int *intbsearch(int key, const int *base0, int nmemb);
+extern inline int *intbsearch(int key, const int *base0, int nmemb);
 int qsort_intcompar(const void *a, const void *b);
 #ifndef CRITICAL_MEMORY
     #define MALLOC(p)  malloc(p)
